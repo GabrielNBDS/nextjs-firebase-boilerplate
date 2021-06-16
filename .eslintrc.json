@@ -1,0 +1,49 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "prettier/react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "space-before-function-paren": "off",
+    "react/prop-types": "off",
+    "react/no-children-prop": "off",
+    "camelcase": "off",
+    "arrow-body-style": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "no-use-before-define": "off",
+    "react/jsx-props-no-spreading": "off",
+    "object-curly-newline": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "arrow-parens": "off",
+    "no-plusplus": "off",
+    "react/no-array-index-key": "off",
+    "array-callback-return": "off",
+    "consistent-return": "off",
+    "implicit-arrow-linebreak": "off",
+    "jsx-a11y/iframe-has-title": "off"
+  }
+}
