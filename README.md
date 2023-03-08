@@ -4,7 +4,7 @@
   <img width="300" src="https://raw.githubusercontent.com/rocketseat-content/youtube-nextjs-design-system/master/.github/assets/Nextjs-ChakraUI.png" />
 </div>
 <div align="center">
-  <img width="50" src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg" />
+  <img width="40" src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg" />
 </div>
 
 ## O que é?
